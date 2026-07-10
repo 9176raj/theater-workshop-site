@@ -84,6 +84,7 @@ textarea {
   align-items: center;
   gap: 1rem;
   padding: 1rem 0;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -94,6 +95,8 @@ textarea {
   font-size: 1.15rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .logo-mark {
@@ -118,6 +121,7 @@ textarea {
   border-radius: 999px;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   transition: background 180ms ease, transform 180ms ease;
 }
 
@@ -127,7 +131,7 @@ textarea {
 }
 
 .nav-toggle-bar {
-  width: 1.35rem;
+  width: 1.2rem;
   height: 2px;
   background: var(--text);
   display: block;
@@ -377,13 +381,16 @@ textarea {
   display: grid;
   gap: 1rem;
   align-items: center;
+  overflow: hidden;
 }
 
 .profile-card img {
   width: 100%;
-  aspect-ratio: 1/1;
+  min-height: 220px;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 1.25rem;
+  display: block;
 }
 
 .instructors-grid {

@@ -24,6 +24,7 @@ navMenu?.addEventListener('click', (event) => {
 });
 
 // Smooth reveal animation for sections as they scroll into view.
+const isMobile = window.matchMedia('(max-width: 760px)').matches;
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
@@ -36,7 +37,13 @@ const observer = new IntersectionObserver(
   { threshold: 0.15 }
 );
 
-revealElements.forEach((element) => observer.observe(element));
+revealElements.forEach((element) => {
+  if (isMobile) {
+    element.classList.add('visible');
+  } else {
+    observer.observe(element);
+  }
+});
 
 // Basic front-end form validation and status messaging.
 if (form && status) {
