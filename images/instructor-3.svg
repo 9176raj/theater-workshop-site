@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" role="img" aria-labelledby="inst3Title">
+  <title id="inst3Title">Instructor portrait placeholder</title>
+  <rect width="500" height="500" rx="40" fill="#291020" />
+  <circle cx="250" cy="180" r="100" fill="#b28440" opacity="0.9" />
+  <rect x="140" y="300" width="220" height="140" rx="24" fill="#d9b567" opacity="0.6" />
+  <text x="250" y="480" fill="#f7e6d8" font-family="Montserrat, sans-serif" font-size="24" text-anchor="middle">Instructor</text>
+</svg>

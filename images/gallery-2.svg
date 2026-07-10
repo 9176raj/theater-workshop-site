@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450" role="img" aria-labelledby="gallery2Title">
+  <title id="gallery2Title">Placeholder rehearsal photo</title>
+  <rect width="600" height="450" fill="#241118" />
+  <circle cx="320" cy="210" r="120" fill="#9c6e2b" opacity="0.23" />
+  <circle cx="200" cy="180" r="70" fill="#ebc27a" opacity="0.5" />
+  <text x="300" y="245" fill="#f7e6d8" font-family="Montserrat, sans-serif" font-size="26" text-anchor="middle">Rehearsal image</text>
+</svg>

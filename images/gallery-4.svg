@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450" role="img" aria-labelledby="gallery4Title">
+  <title id="gallery4Title">Placeholder workshop exercise</title>
+  <rect width="600" height="450" fill="#2a141e" />
+  <rect x="100" y="110" width="400" height="210" rx="30" fill="#5b2f24" />
+  <path d="M130 340 C230 290 370 290 470 340" stroke="#e0b56d" stroke-width="14" fill="none" opacity="0.9" />
+  <text x="300" y="240" fill="#f7e6d8" font-family="Montserrat, sans-serif" font-size="26" text-anchor="middle">Workshop image</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Dramatic theater stage illustration</title>
+  <rect width="1200" height="800" fill="#2d1927" />
+  <circle cx="600" cy="320" r="180" fill="#8e5f2c" opacity="0.35" />
+  <rect x="160" y="280" width="880" height="360" rx="40" fill="#361622" />
+  <path d="M200 620 C320 530 880 530 1000 620" stroke="#e0b56d" stroke-width="18" fill="none" opacity="0.9" />
+  <text x="600" y="460" font-family="Montserrat, sans-serif" text-anchor="middle" fill="#f7e6d8" font-size="56">Theatre in motion</text>
+</svg>
